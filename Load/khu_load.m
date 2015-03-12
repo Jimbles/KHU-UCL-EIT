@@ -26,7 +26,10 @@ function [BV,KHU]=khu_load(clean_flag,plot_flag)
 % files or inputted by the user along with all the data
 % Foldername-ZZ.mat - JUST the mean boundary voltages for Zhous GUI
 %
-% Hopefully the last version (ha! at least until someone does something with mixed injections or non pairwise)
+% Hopefully the last version (ha! at least until someone does something non pairwise inject)
+%
+% Copes with Mixed injections properly now
+% 
 % by the pulchritudinous Jimmy
 
 
