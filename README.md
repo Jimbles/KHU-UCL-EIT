@@ -4,7 +4,7 @@
 
 A new case and power supply had to be designed to enable the use of the 32 channel system inside a case without overheating. Included are the schematics and layout of the PCBs and the CAD drawings of the new cases
 
-@[khu and tank](\Docs\Pics\KHUandTANK.jpg)
+![khu and tank](https://github.com/Jimbles/KHU-UCL-EIT/blob/master/Doc/Pics/KHUandTANK.jpg)
 
 
 #SOFTWARE
