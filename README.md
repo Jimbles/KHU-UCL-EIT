@@ -1,4 +1,13 @@
-# KHU MATLAB SOFTWARE
+# UCL KHU EIT MK2.5 MODS & MATLAB SOFTWARE
+
+#CASE AND POWER SUPPLY
+
+A new case and power supply had to be designed to enable the use of the 32 channel system inside a case without overheating. Included are the schematics and layout of the PCBs and the CAD drawings of the new cases
+
+@[khu and tank](\Docs\Pics\KHUandTANK.jpg)
+
+
+#SOFTWARE
 
 Software used in UCL group for making life a bit easier using the KHU Mk2.5 EIT system
 
