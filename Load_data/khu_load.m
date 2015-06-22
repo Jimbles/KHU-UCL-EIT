@@ -30,7 +30,7 @@ function [BV,KHU]=khu_load(clean_flag,plot_flag)
 %
 % Copes with Mixed injections properly now
 % 
-% by the pulchritudinous Jimmy
+% by the pulchritudinous Jimmy 2013/14/15
 
 
 if exist('clean_flag','var') ==0
