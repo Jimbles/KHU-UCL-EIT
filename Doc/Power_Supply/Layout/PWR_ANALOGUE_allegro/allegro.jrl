@@ -1,0 +1,114 @@
+\t (00:00:12) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:12)     Journal start - Mon Jun 22 17:42:09 2015
+\t (00:00:12)         Host=JIMBLES-PC User=Jimbles Pid=9828 CPUs=4
+\t (00:00:12) 
+\d (00:00:12) Database opened: G:/allegro/32CH_PWR_ANALOGUE.brd
+\i (00:00:12) generaledit 
+\i (00:00:13) zoom in 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in -7.109 -0.603
+\i (00:00:13) trapsize 1343
+\i (00:00:13) zoom in 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in -62.185 1.010
+\i (00:00:13) trapsize 672
+\i (00:00:13) zoom in 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in -69.835 1.413
+\i (00:00:13) trapsize 336
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in -28.931 -8.325
+\i (00:00:14) trapsize 168
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in -28.931 -8.324
+\i (00:00:14) trapsize 84
+\i (00:00:14) zoom out 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom out -28.914 -8.324
+\i (00:00:14) trapsize 168
+\i (00:00:14) zoom out 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom out -28.914 -8.324
+\i (00:00:14) trapsize 336
+\i (00:00:14) zoom out 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom out -28.914 -8.324
+\i (00:00:14) trapsize 672
+\i (00:00:14) zoom out 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom out -3.475 -8.325
+\i (00:00:14) trapsize 1343
+\i (00:00:15) roam start
+\i (00:00:15) roam y -16
+\i (00:00:15) roam y -16
+\i (00:00:15) roam y -16
+\i (00:00:15) roam y 16
+\i (00:00:15) roam y 16
+\i (00:00:15) roam end
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out -1.191 -18.053
+\i (00:00:16) trapsize 2687
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out 104.118 -101.621
+\i (00:00:16) trapsize 2687
+\i (00:00:16) zoom in 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom in 100.357 -103.233
+\i (00:00:16) trapsize 1343
+\i (00:00:16) zoom in 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom in -4.153 -103.501
+\i (00:00:16) trapsize 672
+\i (00:00:16) zoom in 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom in -40.014 -103.501
+\i (00:00:16) trapsize 336
+\i (00:00:17) zoom in 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom in -13.214 -96.247
+\i (00:00:17) trapsize 168
+\i (00:00:17) zoom in 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom in -13.214 -96.246
+\i (00:00:17) trapsize 84
+\i (00:00:17) zoom out 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom out -13.213 -96.246
+\i (00:00:17) trapsize 168
+\i (00:00:17) zoom out 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom out -13.214 -96.246
+\i (00:00:17) trapsize 336
+\i (00:00:17) zoom out 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom out -13.214 -96.245
+\i (00:00:17) trapsize 672
+\i (00:00:17) zoom out 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom out -1.997 -96.246
+\i (00:00:17) trapsize 1343
+\i (00:00:18) roam start
+\i (00:00:18) roam y 48
+\i (00:00:18) roam y 64
+\i (00:00:19) roam y -32
+\i (00:00:19) roam y -80
+\i (00:00:19) roam y -32
+\i (00:00:19) roam y -48
+\i (00:00:19) roam y -48
+\i (00:00:19) roam y -32
+\i (00:00:19) roam y -16
+\i (00:00:19) roam y -16
+\i (00:00:19) roam y -32
+\i (00:00:19) roam y -32
+\i (00:00:20) roam y -16
+\i (00:00:20) roam y -16
+\i (00:00:20) roam y -16
+\i (00:00:20) roam y -16
+\i (00:00:20) roam y -16
+\i (00:00:21) roam end
+\i (00:00:30) exit 
+\t (00:00:30)     Journal end - Mon Jun 22 17:42:27 2015

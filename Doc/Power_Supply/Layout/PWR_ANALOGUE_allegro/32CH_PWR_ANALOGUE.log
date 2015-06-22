@@ -1,0 +1,20 @@
+Layout To Allegro PCB Design   Version 16.4.0
+	Copyright 1985-2011 Cadence Design Systems, Inc.
+ Creating padstack definitions.
+ Creating symbols.
+ ...  50 entities converted.
+ ...  100 entities converted.
+ ...  150 entities converted.
+ Creating independent data.
+ ...  200 entities converted.
+ ...  250 entities converted.
+ ...  300 entities converted.
+
+Netlist Warnings and Errors recorded in 'G:\allegro\netin.log':
+Total Netlist Warnings =  21.
+Total Netlist Errors   =  0.
+Total Device File Warnings =  0.
+Total Device File Errors   =  0.
+
+
+Translate time 1 seconds

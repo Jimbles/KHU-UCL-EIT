@@ -1,0 +1,620 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro NETLIST IN Log File                                      )
+(                                                                     )
+(    Drawing          : 32CH_PWR_ANALOGUE.brd                         )
+(    Software Version : unreleased                                    )
+(    Date/Time        : Mon Jun 22 17:41:34 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Mon Jun 22 17:41:34 2015				Page     1
+
+
+
+
+Netlist File: 'G:\allegro\32CH_PWR_ANALOGUE.txt'      Physical Design File: 'G~
+:\allegro\32CH_PWR_ANALOGUE.brd'
+
+===========================================================
+
+$PACKAGES
+'CAPACITOR_LARGE' ! 'CAP_POL' ! '1000u' ; C1
+'CYLD300LS125034' ! 'CAP_POL' ! '1000u' ; C2
+                                         ^
+WARNING(SPMHNI-82): Package symbol 'CYLD300LS125034' replaces device file pack~
+age 'CAPACITOR_LARGE'.
+-------------------------------------------------------------------------------
+'CYLD300LS125034' ! 'CAP_NP' ! '1u' ; C3
+'CYLD300LS125034' ! 'CAP_NP' ! '1u' ; C4
+'CAPACITOR_LARGE_REV1' ! 'CAP_POL' ! '1000u' ; C5
+                                              ^
+WARNING(SPMHNI-82): Package symbol 'CAPACITOR_LARGE_REV1' replaces device file~
+ package 'CAPACITOR_LARGE'.
+-------------------------------------------------------------------------------
+'CYLD300LS125034' ! 'CAP_NP' ! '1u' ; C6
+'CYLD300LS125034' ! 'CAP_NP' ! '1u' ; C7
+'CYLD300LS125034' ! 'CAP_POL' ! '100u' ; C8
+                                        ^
+WARNING(SPMHNI-82): Package symbol 'CYLD300LS125034' replaces device file pack~
+age 'CAPACITOR_LARGE'.
+-------------------------------------------------------------------------------
+                                        ^
+WARNING(SPMHNI-119): Replacing 'VALUE' value '1000u' with '100u'.
+-------------------------------------------------------------------------------
+'CON2_INPUT2' ! 'CON2' ! 'CON2' ; INPUT2
+'CON2_INPUT3' ! 'CON2' ! 'CON2' ; INPUT3
+                                 ^
+WARNING(SPMHNI-82): Package symbol 'CON2_INPUT3' replaces device file package ~
+'CON2_INPUT2'.
+-------------------------------------------------------------------------------
+'HOLE1' ! 'CON1' ! 'CON1' ; J3
+'HOLE1' ! 'CON1' ! 'CON1' ; J4
+'HOLE1' ! 'CON1' ! 'CON1' ; J5
+'HOLE1' ! 'CON1' ! 'CON1' ; J6
+'CON3' ! 'CON3' ! 'CON3' ; J7
+'HOLE' ! 'CON1' ! 'CON1' ; J8
+                          ^
+WARNING(SPMHNI-82): Package symbol 'HOLE' replaces device file package 'HOLE1'.
+-------------------------------------------------------------------------------
+'HOLE' ! 'CON1' ! 'CON1' ; J9
+'HOLE' ! 'CON1' ! 'CON1' ; J10
+'HOLE' ! 'CON1' ! 'CON1' ; J11
+'CON2_OUTPUT3' ! 'CON2' ! 'CON2' ; OUTPUT3
+                                  ^
+WARNING(SPMHNI-82): Package symbol 'CON2_OUTPUT3' replaces device file package~
+ 'CON2_INPUT2'.
+-------------------------------------------------------------------------------
+Mon Jun 22 17:41:34 2015				Page     2
+
+
+
+
+'BD135WITHHEATSINK' ! 'BD135PLPQ5' ! 'BD135/PLP' ; Q5
+'BD135WITHHEATSINKREV2' ! 'BD135PLPQ6' ! 'BD135/PLP' ; Q6
+'2N6388WITHHEATSINK' ! 'Q2N6388_0' ! 'Q2N6388' ; Q44
+'2N6388WITHHEATSINKREV1' ! 'Q2N6388_0' ! 'Q2N6388' ; Q45
+                                                    ^
+WARNING(SPMHNI-82): Package symbol '2N6388WITHHEATSINKREV1' replaces device fi~
+le package '2N6388WITHHEATSINK'.
+-------------------------------------------------------------------------------
+'AXRC20R10' ! 'R' ! '5k' ; R10
+'AXRC20R11' ! 'R' ! '15k' ; R11
+                           ^
+WARNING(SPMHNI-82): Package symbol 'AXRC20R11' replaces device file package 'A~
+XRC20R10'.
+-------------------------------------------------------------------------------
+                           ^
+WARNING(SPMHNI-119): Replacing 'VALUE' value '5k' with '15k'.
+-------------------------------------------------------------------------------
+'AXRC20R12' ! 'R' ! '10' ; R12
+                          ^
+WARNING(SPMHNI-82): Package symbol 'AXRC20R12' replaces device file package 'A~
+XRC20R10'.
+-------------------------------------------------------------------------------
+                          ^
+WARNING(SPMHNI-119): Replacing 'VALUE' value '5k' with '10'.
+-------------------------------------------------------------------------------
+'POWER_RESISTOR' ! 'R' ! '0.03' ; R13
+                                 ^
+WARNING(SPMHNI-82): Package symbol 'POWER_RESISTOR' replaces device file packa~
+ge 'AXRC20R10'.
+-------------------------------------------------------------------------------
+                                 ^
+WARNING(SPMHNI-119): Replacing 'VALUE' value '5k' with '0.03'.
+-------------------------------------------------------------------------------
+'POWER_RESISTOR_REV1' ! 'R' ! '0.03' ; R14
+                                      ^
+WARNING(SPMHNI-82): Package symbol 'POWER_RESISTOR_REV1' replaces device file ~
+package 'AXRC20R10'.
+-------------------------------------------------------------------------------
+                                      ^
+WARNING(SPMHNI-119): Replacing 'VALUE' value '5k' with '0.03'.
+-------------------------------------------------------------------------------
+'AXRC20REV3' ! 'R' ! '5k' ; R15
+                           ^
+WARNING(SPMHNI-82): Package symbol 'AXRC20REV3' replaces device file package '~
+AXRC20R10'.
+-------------------------------------------------------------------------------
+'AXRC20REV2' ! 'R' ! '15k' ; R16
+                            ^
+WARNING(SPMHNI-82): Package symbol 'AXRC20REV2' replaces device file package '~
+AXRC20R10'.
+-------------------------------------------------------------------------------
+                            ^
+Mon Jun 22 17:41:34 2015				Page     3
+
+
+
+
+WARNING(SPMHNI-119): Replacing 'VALUE' value '5k' with '15k'.
+-------------------------------------------------------------------------------
+'AXRC20REV1' ! 'R' ! '10' ; R17
+                           ^
+WARNING(SPMHNI-82): Package symbol 'AXRC20REV1' replaces device file package '~
+AXRC20R10'.
+-------------------------------------------------------------------------------
+                           ^
+WARNING(SPMHNI-119): Replacing 'VALUE' value '5k' with '10'.
+-------------------------------------------------------------------------------
+'SMSOT89123' ! 'TL431_2' ! 'TL431' ; U4
+'SMSOT89123' ! 'TL431_2' ! 'TL431' ; U5
+$NETS
+'N10030' ; R11.2 C1.2 C3.2 INPUT2.2 C2.2 C4.2,
+ J7.2 U4.2 J10.1
+'N10058' ; R11.1 R10.2 U4.1
+'N10094' ; Q44.2 R12.1 INPUT2.1 C3.1 C1.1 Q5.2
+'N10098' ; U4.3 R12.2 Q5.3
+'N16597206' ; C2.1 R10.1 Q44.3 R13.1 C4.1
+'N16597231' ; J7.1 R13.2
+'N16597622' ; Q44.1 Q5.1
+'N16600801' ; R16.1 R15.2 U5.1
+'N16600809' ; OUTPUT3.2 C8.2 J9.1 R16.2 C7.2 U5.2,
+ C5.2 INPUT3.2 C6.2
+'N16600813' ; U5.3 R17.2 Q6.3
+'N16600817' ; Q45.2 R17.1 INPUT3.1 C6.1 C5.1 Q6.2
+'N16600857' ; Q45.3 R15.1 C7.1 R14.1 C8.1
+'N16600861' ; R14.2 OUTPUT3.1 J11.1
+'N16600891' ; Q45.1 Q6.1
+'N16602251' ; J8.1 J7.3
+$A_PROPERTIES
+$END
+
+===========================================================
+End of NETLIST IN Syntax/Logic Check
+===========================================================
+
+Total Netlist Warnings =  21.
+Total Netlist Errors   =  0.
+Mon Jun 22 17:41:34 2015				Page     1
+
+Parsing device file: 'G:/allegro/cap_pol.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP_POL)
+PACKAGE CAPACITOR_LARGE
+PACKAGEPROP VALUE '1000u'
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(CYLD300LS125034;CAPACITOR_LARGE_REV1)'
+CLASS IC
+PINCOUNT 2
+END
+Mon Jun 22 17:41:34 2015				Page     2
+
+Parsing device file: 'G:/allegro/cap_pol.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP_POL)
+PACKAGE CAPACITOR_LARGE
+PACKAGEPROP VALUE '1000u'
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(CYLD300LS125034;CAPACITOR_LARGE_REV1)'
+CLASS IC
+PINCOUNT 2
+END
+Mon Jun 22 17:41:34 2015				Page     3
+
+Parsing device file: 'G:/allegro/cap_np.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP_NP)
+PACKAGE CYLD300LS125034
+PACKAGEPROP VALUE '1u'
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Mon Jun 22 17:41:34 2015				Page     4
+
+Parsing device file: 'G:/allegro/cap_np.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP_NP)
+PACKAGE CYLD300LS125034
+PACKAGEPROP VALUE '1u'
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Mon Jun 22 17:41:34 2015				Page     5
+
+Parsing device file: 'G:/allegro/cap_pol.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP_POL)
+PACKAGE CAPACITOR_LARGE
+PACKAGEPROP VALUE '1000u'
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(CYLD300LS125034;CAPACITOR_LARGE_REV1)'
+CLASS IC
+PINCOUNT 2
+END
+Mon Jun 22 17:41:34 2015				Page     6
+
+Parsing device file: 'G:/allegro/cap_np.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP_NP)
+PACKAGE CYLD300LS125034
+PACKAGEPROP VALUE '1u'
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Mon Jun 22 17:41:34 2015				Page     7
+
+Parsing device file: 'G:/allegro/cap_np.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP_NP)
+PACKAGE CYLD300LS125034
+PACKAGEPROP VALUE '1u'
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 2
+END
+Mon Jun 22 17:41:34 2015				Page     8
+
+Parsing device file: 'G:/allegro/cap_pol.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CAP_POL)
+PACKAGE CAPACITOR_LARGE
+PACKAGEPROP VALUE '1000u'
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(CYLD300LS125034;CAPACITOR_LARGE_REV1)'
+CLASS IC
+PINCOUNT 2
+END
+Mon Jun 22 17:41:34 2015				Page     9
+
+Parsing device file: 'G:/allegro/con2.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CON2)
+PACKAGE CON2_INPUT2
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(CON2_INPUT3;CON2_OUTPUT3)'
+CLASS IC
+PINCOUNT 2
+END
+Mon Jun 22 17:41:34 2015				Page    10
+
+Parsing device file: 'G:/allegro/con2.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CON2)
+PACKAGE CON2_INPUT2
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(CON2_INPUT3;CON2_OUTPUT3)'
+CLASS IC
+PINCOUNT 2
+END
+Mon Jun 22 17:41:34 2015				Page    11
+
+Parsing device file: 'G:/allegro/con1.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CON1)
+PACKAGE HOLE1
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(HOLE)'
+CLASS IC
+PINCOUNT 1
+END
+Mon Jun 22 17:41:34 2015				Page    12
+
+Parsing device file: 'G:/allegro/con1.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CON1)
+PACKAGE HOLE1
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(HOLE)'
+CLASS IC
+PINCOUNT 1
+END
+Mon Jun 22 17:41:34 2015				Page    13
+
+Parsing device file: 'G:/allegro/con1.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CON1)
+PACKAGE HOLE1
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(HOLE)'
+CLASS IC
+PINCOUNT 1
+END
+Mon Jun 22 17:41:34 2015				Page    14
+
+Parsing device file: 'G:/allegro/con1.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CON1)
+PACKAGE HOLE1
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(HOLE)'
+CLASS IC
+PINCOUNT 1
+END
+Mon Jun 22 17:41:34 2015				Page    15
+
+Parsing device file: 'G:/allegro/con3.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CON3)
+PACKAGE CON3
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 3
+END
+Mon Jun 22 17:41:34 2015				Page    16
+
+Parsing device file: 'G:/allegro/con1.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CON1)
+PACKAGE HOLE1
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(HOLE)'
+CLASS IC
+PINCOUNT 1
+END
+Mon Jun 22 17:41:34 2015				Page    17
+
+Parsing device file: 'G:/allegro/con1.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CON1)
+PACKAGE HOLE1
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(HOLE)'
+CLASS IC
+PINCOUNT 1
+END
+Mon Jun 22 17:41:34 2015				Page    18
+
+Parsing device file: 'G:/allegro/con1.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CON1)
+PACKAGE HOLE1
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(HOLE)'
+CLASS IC
+PINCOUNT 1
+END
+Mon Jun 22 17:41:34 2015				Page    19
+
+Parsing device file: 'G:/allegro/con1.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CON1)
+PACKAGE HOLE1
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(HOLE)'
+CLASS IC
+PINCOUNT 1
+END
+Mon Jun 22 17:41:34 2015				Page    20
+
+Parsing device file: 'G:/allegro/con2.txt'.
+
+
+(DEVICE DESCRIPTION FILE: CON2)
+PACKAGE CON2_INPUT2
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(CON2_INPUT3;CON2_OUTPUT3)'
+CLASS IC
+PINCOUNT 2
+END
+Mon Jun 22 17:41:34 2015				Page    21
+
+Parsing device file: 'G:/allegro/bd135plpq5.txt'.
+
+
+(DEVICE DESCRIPTION FILE: BD135PLPQ5)
+PACKAGE BD135WITHHEATSINK
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 5
+END
+Mon Jun 22 17:41:34 2015				Page    22
+
+Parsing device file: 'G:/allegro/bd135plpq6.txt'.
+
+
+(DEVICE DESCRIPTION FILE: BD135PLPQ6)
+PACKAGE BD135WITHHEATSINKREV2
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 5
+END
+Mon Jun 22 17:41:34 2015				Page    23
+
+Parsing device file: 'G:/allegro/q2n6388_0.txt'.
+
+
+(DEVICE DESCRIPTION FILE: Q2N6388_0)
+PACKAGE 2N6388WITHHEATSINK
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(2N6388WITHHEATSINKREV1)'
+CLASS IC
+PINCOUNT 5
+END
+Mon Jun 22 17:41:34 2015				Page    24
+
+Parsing device file: 'G:/allegro/q2n6388_0.txt'.
+
+
+(DEVICE DESCRIPTION FILE: Q2N6388_0)
+PACKAGE 2N6388WITHHEATSINK
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(2N6388WITHHEATSINKREV1)'
+CLASS IC
+PINCOUNT 5
+END
+Mon Jun 22 17:41:34 2015				Page    25
+
+Parsing device file: 'G:/allegro/r.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R)
+PACKAGE AXRC20R10
+PACKAGEPROP VALUE '5k'
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(AXRC20R11;AXRC20R12;POWER_RESISTOR;POWER_RESISTOR_RE~
+V1;AXRC20REV3)'
+PACKAGEPROP ALT_SYMBOLS '(AXRC20REV2;AXRC20REV1)'
+CLASS IC
+PINCOUNT 2
+END
+Mon Jun 22 17:41:34 2015				Page    26
+
+Parsing device file: 'G:/allegro/r.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R)
+PACKAGE AXRC20R10
+PACKAGEPROP VALUE '5k'
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(AXRC20R11;AXRC20R12;POWER_RESISTOR;POWER_RESISTOR_RE~
+V1;AXRC20REV3)'
+PACKAGEPROP ALT_SYMBOLS '(AXRC20REV2;AXRC20REV1)'
+CLASS IC
+PINCOUNT 2
+END
+Mon Jun 22 17:41:34 2015				Page    27
+
+Parsing device file: 'G:/allegro/r.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R)
+PACKAGE AXRC20R10
+PACKAGEPROP VALUE '5k'
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(AXRC20R11;AXRC20R12;POWER_RESISTOR;POWER_RESISTOR_RE~
+V1;AXRC20REV3)'
+PACKAGEPROP ALT_SYMBOLS '(AXRC20REV2;AXRC20REV1)'
+CLASS IC
+PINCOUNT 2
+END
+Mon Jun 22 17:41:34 2015				Page    28
+
+Parsing device file: 'G:/allegro/r.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R)
+PACKAGE AXRC20R10
+PACKAGEPROP VALUE '5k'
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(AXRC20R11;AXRC20R12;POWER_RESISTOR;POWER_RESISTOR_RE~
+V1;AXRC20REV3)'
+PACKAGEPROP ALT_SYMBOLS '(AXRC20REV2;AXRC20REV1)'
+CLASS IC
+PINCOUNT 2
+END
+Mon Jun 22 17:41:34 2015				Page    29
+
+Parsing device file: 'G:/allegro/r.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R)
+PACKAGE AXRC20R10
+PACKAGEPROP VALUE '5k'
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(AXRC20R11;AXRC20R12;POWER_RESISTOR;POWER_RESISTOR_RE~
+V1;AXRC20REV3)'
+PACKAGEPROP ALT_SYMBOLS '(AXRC20REV2;AXRC20REV1)'
+CLASS IC
+PINCOUNT 2
+END
+Mon Jun 22 17:41:34 2015				Page    30
+
+Parsing device file: 'G:/allegro/r.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R)
+PACKAGE AXRC20R10
+PACKAGEPROP VALUE '5k'
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(AXRC20R11;AXRC20R12;POWER_RESISTOR;POWER_RESISTOR_RE~
+V1;AXRC20REV3)'
+PACKAGEPROP ALT_SYMBOLS '(AXRC20REV2;AXRC20REV1)'
+CLASS IC
+PINCOUNT 2
+END
+Mon Jun 22 17:41:34 2015				Page    31
+
+Parsing device file: 'G:/allegro/r.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R)
+PACKAGE AXRC20R10
+PACKAGEPROP VALUE '5k'
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(AXRC20R11;AXRC20R12;POWER_RESISTOR;POWER_RESISTOR_RE~
+V1;AXRC20REV3)'
+PACKAGEPROP ALT_SYMBOLS '(AXRC20REV2;AXRC20REV1)'
+CLASS IC
+PINCOUNT 2
+END
+Mon Jun 22 17:41:34 2015				Page    32
+
+Parsing device file: 'G:/allegro/r.txt'.
+
+
+(DEVICE DESCRIPTION FILE: R)
+PACKAGE AXRC20R10
+PACKAGEPROP VALUE '5k'
+PACKAGEPROP HEIGHT '1.0000000'
+PACKAGEPROP ALT_SYMBOLS '(AXRC20R11;AXRC20R12;POWER_RESISTOR;POWER_RESISTOR_RE~
+V1;AXRC20REV3)'
+PACKAGEPROP ALT_SYMBOLS '(AXRC20REV2;AXRC20REV1)'
+CLASS IC
+PINCOUNT 2
+END
+Mon Jun 22 17:41:34 2015				Page    33
+
+Parsing device file: 'G:/allegro/tl431_2.txt'.
+
+
+(DEVICE DESCRIPTION FILE: TL431_2)
+PACKAGE SMSOT89123
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 3
+END
+Mon Jun 22 17:41:34 2015				Page    34
+
+Parsing device file: 'G:/allegro/tl431_2.txt'.
+
+
+(DEVICE DESCRIPTION FILE: TL431_2)
+PACKAGE SMSOT89123
+PACKAGEPROP HEIGHT '1.0000000'
+CLASS IC
+PINCOUNT 3
+END
+
+
+===========================================================
+
+Total Device File Warnings =  0.
+Total Device File Errors   =  0.
+
+===========================================================
+
+Total Combined Netlist and Device File Warnings =  21.
+Total Combined Netlist and Device File Errors   =  0.
+
+===========================================================
+Mon Jun 22 17:41:34 2015				Page     4
+
+
+
+
+End of Allegro NETLIST IN Log
+===========================================================
