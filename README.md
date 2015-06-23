@@ -9,7 +9,7 @@ A new case and power supply had to be designed to enable the use of the 32 chann
 
 #SOFTWARE
 
-Software used in UCL group for making life a bit easier using the KHU Mk2.5 EIT system
+Software used in UCL group for making life a bit easier using the KHU Mk2.5 EIT system!
 
 ## Load_data
 
