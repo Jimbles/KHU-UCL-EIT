@@ -1,0 +1,49 @@
+** Profile: "SCHEMATIC1-test"  [ C:\Users\James\Dropbox\PHD\Chapter 3\KHU MK2.5\EITMark25_Schematic Layout\resisterphantom_pspice (1)\resisterphantom(simul)-pspicefiles\schematic1\test.sim ] 
+
+** Creating circuit file "test.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\OrCAD\OrCAD_10.5\tools\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN 1u 0.1m 0 1u 
+.PROBE N([CH1])
+.PROBE N([CH16])
+.PROBE N([CH2])
+.PROBE N([CH1])
+.PROBE N([CH3])
+.PROBE N([CH2])
+.PROBE N([CH4])
+.PROBE N([CH3])
+.PROBE N([CH5])
+.PROBE N([CH4])
+.PROBE N([CH6])
+.PROBE N([CH5])
+.PROBE N([CH7])
+.PROBE N([CH6])
+.PROBE N([CH8])
+.PROBE N([CH7])
+.PROBE N([CH9])
+.PROBE N([CH8])
+.PROBE N([CH10])
+.PROBE N([CH9])
+.PROBE N([CH11])
+.PROBE N([CH10])
+.PROBE N([CH12])
+.PROBE N([CH11])
+.PROBE N([CH13])
+.PROBE N([CH12])
+.PROBE N([CH14])
+.PROBE N([CH13])
+.PROBE N([CH15])
+.PROBE N([CH14])
+.PROBE N([CH16])
+.PROBE N([CH15])
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

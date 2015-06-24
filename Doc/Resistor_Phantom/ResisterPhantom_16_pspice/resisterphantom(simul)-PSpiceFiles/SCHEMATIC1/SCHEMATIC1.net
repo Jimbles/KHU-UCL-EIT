@@ -1,0 +1,37 @@
+* source RESISTERPHANTOM(SIMUL)
+R_R30         0 CH14  820  
+R_R18         CH9 CH10  820  
+R_R14         0 CH6  820  
+R_R15         0 CH7  820  
+R_R31         0 CH15  820  
+R_R19         CH10 CH11  820  
+R_R16         0 CH8  820  
+R_R1         CH16 CH1  820  
+R_R20         CH11 CH12  820  
+R_R32         0 CH16  820  
+R_R2         CH1 CH2  820  
+R_R21         CH12 CH13  820  
+R_R3         CH2 CH3  820  
+R_R22         CH13 CH14  820  
+R_R4         CH3 CH4  820  
+I_I1         CH1 0 DC 0Adc AC 0Aac
++SIN 0 132.6172u 10kHz 0 0 0
+R_R5         CH4 CH5  820  
+R_R23         CH14 CH15  820  
+R_R6         CH5 CH6  820  
+R_R24         CH15 CH16  820  
+R_R7         CH6 CH7  820  
+R_R25         0 CH9  820  
+R_R8         CH7 CH8  820  
+R_R26         0 CH10  820  
+R_R9         0 CH1  820  
+R_R10         0 CH2  820  
+R_R27         0 CH11  820  
+R_R11         0 CH3  820  
+R_R28         0 CH12  820  
+R_R12         0 CH4  820  
+R_R29         0 CH13  820  
+R_R17         CH8 CH9  820  
+R_R13         0 CH5  820  
+I_I2         CH8 0 DC 0Adc AC 0Aac
++SIN 0 -132.6172u 10kHz 0 0 0

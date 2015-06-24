@@ -1,0 +1,153 @@
+
+**** 02/12/13 09:49:20 ******* PSpice 10.5.0 (Jan 2005) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test"  [ C:\Users\James\Dropbox\PHD\Chapter 3\KHU MK2.5\EITMark25_Schematic Layout\resisterphantom_pspice (1
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "test.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\OrCAD\OrCAD_10.5\tools\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN 1u 0.1m 0 1u 
+.PROBE N([CH1])
+.PROBE N([CH16])
+.PROBE N([CH2])
+.PROBE N([CH1])
+.PROBE N([CH3])
+.PROBE N([CH2])
+.PROBE N([CH4])
+.PROBE N([CH3])
+.PROBE N([CH5])
+.PROBE N([CH4])
+.PROBE N([CH6])
+.PROBE N([CH5])
+.PROBE N([CH7])
+.PROBE N([CH6])
+.PROBE N([CH8])
+.PROBE N([CH7])
+.PROBE N([CH9])
+.PROBE N([CH8])
+.PROBE N([CH10])
+.PROBE N([CH9])
+.PROBE N([CH11])
+.PROBE N([CH10])
+.PROBE N([CH12])
+.PROBE N([CH11])
+.PROBE N([CH13])
+.PROBE N([CH12])
+.PROBE N([CH14])
+.PROBE N([CH13])
+.PROBE N([CH15])
+.PROBE N([CH14])
+.PROBE N([CH16])
+.PROBE N([CH15])
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source RESISTERPHANTOM(SIMUL)
+R_R30         0 CH14  820  
+R_R18         CH9 CH10  820  
+R_R14         0 CH6  820  
+R_R15         0 CH7  820  
+R_R31         0 CH15  820  
+R_R19         CH10 CH11  820  
+R_R16         0 CH8  820  
+R_R1         CH16 CH1  820  
+R_R20         CH11 CH12  820  
+R_R32         0 CH16  820  
+R_R2         CH1 CH2  820  
+R_R21         CH12 CH13  820  
+R_R3         CH2 CH3  820  
+R_R22         CH13 CH14  820  
+R_R4         CH3 CH4  820  
+I_I1         CH1 0 DC 0Adc AC 0Aac
++SIN 0 132.6172u 10kHz 0 0 0
+R_R5         CH4 CH5  820  
+R_R23         CH14 CH15  820  
+R_R6         CH5 CH6  820  
+R_R24         CH15 CH16  820  
+R_R7         CH6 CH7  820  
+R_R25         0 CH9  820  
+R_R8         CH7 CH8  820  
+R_R26         0 CH10  820  
+R_R9         0 CH1  820  
+R_R10         0 CH2  820  
+R_R27         0 CH11  820  
+R_R11         0 CH3  820  
+R_R28         0 CH12  820  
+R_R12         0 CH4  820  
+R_R29         0 CH13  820  
+R_R17         CH8 CH9  820  
+R_R13         0 CH5  820  
+I_I2         CH8 0 DC 0Adc AC 0Aac
++SIN 0 -132.6172u 10kHz 0 0 0
+
+**** RESUMING test.cir ****
+.END
+
+**** 02/12/13 09:49:20 ******* PSpice 10.5.0 (Jan 2005) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test"  [ C:\Users\James\Dropbox\PHD\Chapter 3\KHU MK2.5\EITMark25_Schematic Layout\resisterphantom_pspice (1
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  CH1)    0.0000  (  CH2)    0.0000  (  CH3)    0.0000  (  CH4)    0.0000      
+
+(  CH5)    0.0000  (  CH6)    0.0000  (  CH7)    0.0000  (  CH8)    0.0000      
+
+(  CH9)    0.0000  ( CH10)    0.0000  ( CH11)    0.0000  ( CH12)    0.0000      
+
+( CH13)    0.0000  ( CH14)    0.0000  ( CH15)    0.0000  ( CH16)    0.0000  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 02/12/13 09:49:20 ******* PSpice 10.5.0 (Jan 2005) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test"  [ C:\Users\James\Dropbox\PHD\Chapter 3\KHU MK2.5\EITMark25_Schematic Layout\resisterphantom_pspice (1
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+
